@@ -36,7 +36,7 @@ button{
     height: 70px;
     border-radius: 3px;
     border: 1px solid darkslategray;
-    background-color: transparent;
+    background-color: rgb(168, 207, 221);
     font-size: 3.2rem;
     color: black;
     background-image: linear-gradient(to bottom, transparent, transparent 50%,
@@ -47,18 +47,22 @@ button{
 }
 
 button:hover {
-    background-color: #e1e1e1;
+    background-color: rgb(135, 169, 180);
 }
 
 .operator {
     color: black;
     background-image: linear-gradient(to bottom, transparent, transparent 50%,
         rgba(0, 0, 0, .5));
-    background-color: lightgray;
+    background-color: lightskyblue;
+}
+
+.operator:hover {
+    background-color: rgb(113, 172, 209);
 }
 
 .all-clear {
-    background-color: red;
+    background-color: rgb(173, 3, 3);
     border-color: darkslategray;
     color: #fff;
 }
@@ -68,7 +72,7 @@ button:hover {
 }
 
 .equal-sign {
-    background-color: blue;
+    background-color: rgba(1, 1, 190, 0.7);
     border-color: darkslategray;
     color: #fff;
     height: 100%;
@@ -76,10 +80,11 @@ button:hover {
 }
 
 .equal-sign:hover {
-    background-color: darkblue;
+    background-color: rgba(0, 0, 139, 0.7);
 }
 
 .calculator-keys {
+    background-color: lightblue;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
