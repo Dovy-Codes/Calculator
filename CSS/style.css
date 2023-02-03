@@ -54,7 +54,7 @@ button:hover {
     color: black;
     background-image: linear-gradient(to bottom, transparent, transparent 50%,
         rgba(0, 0, 0, .5));
-    background-color: lightskyblue;
+    background-color: rgb(132, 195, 218);
 }
 
 .operator:hover {
